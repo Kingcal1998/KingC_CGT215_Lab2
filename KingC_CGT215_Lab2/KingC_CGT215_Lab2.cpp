@@ -3,9 +3,32 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	float A;
+	float B;
+	float X;
+
+	std::cout << "Hello, lets create and solve an equation together.  Lets solve for X when AX + B = 0" << endl;
+
+	cout << "Give a digit for A: ";
+		cin >> A;
+		cout << "A=" << A << endl;
+
+	cout << "Give a digit for B: ";
+		cin >> B;
+		cout << "B=" << B << endl;
+
+	cout << "Now lets solve the problem" << endl;
+		X = -B / A;
+		cout << "X=" << X << endl;
+
+
+
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
